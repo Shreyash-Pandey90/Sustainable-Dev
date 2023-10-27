@@ -1,0 +1,426 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Raleway:wght@900&display=swap');
+
+
+.loading {
+    opacity: 0;
+    transition: opacity 0.2s ease-in;
+  }
+  
+  .loaded {
+    opacity: 1;
+  }
+
+  
+* {
+    font-family: Poppins;
+    box-sizing:border-box;
+    padding:0px;
+    margin:0px;
+}
+
+body {
+    background: white;
+        background-image: url("https://www.shutterstock.com/image-photo/high-mountain-morning-time-beautiful-natural-1384588922");
+        background-attachment: fixed;
+}
+
+.section-padding {
+    padding: 80px 0;
+}
+
+p {
+    font-size: 20px;
+    font: bold;
+}
+
+h2 {
+    font-weight: bolder;
+}
+
+.carousel-item {
+    height: 100vh;
+    min-height: 300px;
+}
+
+.carousel-caption {
+    bottom: 220px;
+    z-index: 2;
+}
+
+.carousel-caption h5 {
+    font-size: 45px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 25px;
+}
+
+.carousel-caption p {
+    width: 60%;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.9;
+}
+
+.carousel-inner::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+}
+
+.navbar-nav a {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.navbar-brand {
+
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.navbar-brand:focus,
+.navbar-brand:hover {
+    color: #000;
+}
+
+.navbar-link {
+    color: #000;
+}
+
+.w-100 {
+    height: 100vh;
+}
+
+/* Responsive css using media */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .carousel-caption {
+        bottom: 370px;
+    }
+
+    .carousel-caption p {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .carousel-caption {
+        bottom: 125px;
+    }
+
+    .carousel-caption h5 {
+        font-size: 17px;
+    }
+
+    .carousel-caption a {
+        padding: 10px 15px;
+    }
+
+    .carousel-caption p {
+        width: 100%;
+        line-height: 1.6;
+        font-size: 12px;
+    }
+
+    .section-padding {
+        padding: 40px 0;
+    }
+
+
+}
+
+
+/* mission css */
+
+#mission li {
+    font-size: 18px;
+}
+
+
+/* animation */
+
+/* Animation property */
+.ani {
+    animation: wiggle 2s ease-in-out;
+}
+
+/* Keyframes */
+@keyframes wiggle {
+
+    0%,
+    7% {
+        transform: rotateZ(0);
+    }
+
+    15% {
+        transform: rotateZ(-15deg);
+    }
+
+    20% {
+        transform: rotateZ(10deg);
+    }
+
+    25% {
+        transform: rotateZ(-10deg);
+    }
+
+    30% {
+        transform: rotateZ(6deg);
+    }
+
+    35% {
+        transform: rotateZ(-4deg);
+    }
+
+    40%,100% {
+        transform: rotateZ(0);
+    }
+}
+
+#save {
+    margin-top: 180px;
+}
+
+
+.reveal {
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 1s all ease;
+}
+
+.reveal.active {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+/* ////////// IMG 2 */
+#img2{
+    /* border:5px solid; */
+    margin:2rem;
+    margin-top:7rem;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color:rgba(255, 255, 255, 0.073);
+}
+
+#p2div{
+    margin:3rem;
+    padding:1.5rem;
+
+}
+
+#img2p2{
+    
+    font-weight: 900 !important;
+    font-size: 4em;
+    color:rgba(28,103,88,1);
+    text-align:center;
+    /* background-color:white; */
+}
+
+#food{
+    width:100%;
+}
+
+#jrn{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+    align-items:center;
+}
+
+#jrn p{
+    font-weight: 900 !important;
+    font-size: 1.3em;
+    color:rgb(255, 115, 0);
+    text-align:center;
+}
+
+#jrn h3{
+    font-weight: 900 !important;
+    font-size:3em;
+    color:rgb(70, 42, 42);
+    text-align:center;
+}
+
+#hr2{
+    width:40%;
+    height:0.2em;
+    background-color:black;
+}
+
+
+/* //WEBSITES */
+
+ 
+#solution {
+    display: flex;
+    padding: 2rem;
+    justify-content: center;
+    align-items: center;
+    margin:3rem;
+}
+
+/*
+#solution h4{
+    font-weight: 900 !important;
+    color: rgba(28, 103, 88, 1);
+}*/
+#sdiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0.5rem;
+    margin-bottom:4.2rem;
+    border: 2px solid;
+    width: 80%;
+    text-align: center;
+    /* background-color: black; */
+    color: white;
+    width: 4em;
+    height: 4em;
+   
+    padding: 8%;
+}
+/*
+#sdiv:hover {
+   background-color:whitesmoke;
+   transform: scale(1.1);
+   color:#000;
+  
+
+}
+
+#eh{
+   
+    height:50%;
+}
+
+#eh1{
+    height:30%;
+}
+
+#sl{
+    font-weight: 900 !important;
+    font-size: 3em;
+    color:rgba(28,103,88,1);
+    text-align:center;
+} */
+
+#bt{
+    width:3rem;
+    padding:5rem;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:large;
+}
+
+.glow-on-hover {
+    width: 220px;
+    height: 50px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #111;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+}
+
+.glow-on-hover:before {
+    content: '';
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+
+.glow-on-hover:active {
+    color: #000
+}
+
+.glow-on-hover:active:after {
+    background: transparent;
+}
+
+.glow-on-hover:hover:before {
+    opacity: 1;
+}
+
+.glow-on-hover:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #111;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+
+@keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+}
+
+
+/* Impact */
+
+.whole{
+    display:flex;
+
+}
+
+.impact{
+    display:flex;
+    flex-direction:column;
+    padding:1.2rem;
+
+}
+
+#p11{
+color:orangered;
+font-size: medium;
+font-weight: 900;
+}
+
+.impact h3{
+    font-weight: 900 !important;
+    font-size: 3em;
+    color:black;
+    font-weight:bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+#pd{
+    color:rgba(28,103,88,1);
+}
