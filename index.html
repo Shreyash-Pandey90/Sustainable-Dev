@@ -1,0 +1,661 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sustainable Dev</title>
+    <link rel="icon" href="im/icon.png" sizes="16x16 32x32 48x48" type="image/png">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="js/myjs.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+
+
+
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+</head>
+<!-- chatbot -->
+
+<script>
+    window.embeddedChatbotConfig = {
+        chatbotId: "WDRjVbBKrI_i1JP9LrAWq",
+        domain: "www.chatbase.co"
+    }
+</script>
+<script src="https://www.chatbase.co/embed.min.js" chatbotId="WDRjVbBKrI_i1JP9LrAWq" domain="www.chatbase.co" defer>
+</script>
+
+
+
+</head>
+
+<body>
+    <!--nav bar-->
+    <section id="home">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top shadow-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="im/logo.png" alt="Logo" width="75" height="40" class="d-inline-block align-text-top">
+                    Sustianable<span class="text-success"> Dev</span>
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#home"><i class="bi bi-house"></i> Home </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#goal"> <i class="bi bi-rocket-takeoff"></i> Goal</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#donate"> <i class="bi bi-cash-coin"></i> Donate</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#issue"> <i class="bi bi-info-circle"></i> Issues</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#calculator"> <i class="bi bi-calculator"></i> Calculator</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#aiq"> <i class="bi bi-wind"></i> AIQ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="ecoCom.html"> <i class="bi bi-cart4"></i> Shopping</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact"> <i class="bi bi-person-lines-fill"></i> Contact</a>
+                        </li>
+
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+
+        <!--Image Slider-->
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="im/1.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption">
+                        <h5>PHOTOGRAPH BY CORY RICHARDS</h5>
+                        <p>An African savanna elephant roams Botswana's Okavango Delta. The wetland is home to the
+                            continent's largest population of this endangered species.</p>
+                        <p><a href="https://www.nationalgeographic.com/environment/article/okavango-delta-unesco-world-heritage-site-expansion"
+                                class="btn btn-warning mt-3" target="_blank">> Learn More</a></p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="im/2.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption">
+                        <h5>PHOTOGRAPH BY GARY HERSHORN</h5>
+                        <p>Scientists think trees release a red-producing chemical in the fall to help the tree absorb
+                            the tree's last remaining nutrients before winter strikes. Warming temperatures have been
+                            delaying this color change, with unclear consequences for trees' health. </p>
+                        <p><a href="https://www.nationalgeographic.com/environment/article/fall-foliage-disrupted-by-climate-change-might-be-new-normal"
+                                class="btn btn-warning mt-3" target="_blank">> Learn More</a></p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="im/3.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption">
+                        <h5>PHOTOGRAPH BY LUCA RENNER</h5>
+                        <p>Escudo de Veraguas, an island known for its lush forests and crystalline waters, is roughly
+                            one hour from Rio Caña, an Indigenous Ngäbe Buglé community, featured on a new tourism
+                            network in Panama. The island is the only place were travelers can see the rare three-toed
+                            pygmy sloth.</p>
+                        <p><a href="https://www.nationalgeographic.com/travel/article/panama-community-tourism-sostur"
+                                class="btn btn-warning mt-3" target="_blank">> Learn More</a></p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+
+
+    <!--goal section-->
+    <section id="goal" class="section-padding">
+        <div class="container reveal">
+            <div class="row">
+                <div class="h2 mb-2 text-center">Sustainable Development Goals</div>
+                <div class="col-lg-12 col-md-12 col-12">
+                    <p class="text-center"><em>To be achieved by 2030.</em></p>
+                    <!--starts here-->
+                    <div class="row">
+                        <div class="col d-flex flex-wrap justify-content-center m-5">
+                            <div class="card cc" style="width: 7rem;">
+                                <img src="im/s1.png" class="card-img-top" alt="" onclick="href">
+                                <a href="https://www.undp.org/sustainable-development-goals/no-poverty" target=_blank
+                                    class="stretched-link"></a>
+                            </div>
+
+                            <div class="card cc" style="width: 7rem;">
+                                <img src="im/s2.png" class="card-img-top" alt="">
+                                <a href="https://www.undp.org/sustainable-development-goals/zero-hunger" target=_blank
+                                    class="stretched-link"></a>
+                            </div>
+
+                            <div class="card cc" style="width: 7rem;">
+                                <img src="im/s3.png" class="card-img-top" alt="">
+                                <a href="https://www.undp.org/sustainable-development-goals/good-health" target=_blank
+                                    class="stretched-link"></a>
+                            </div>
+
+                            <div class="card cc" style="width: 7rem;">
+                                <img src="im/s4.png" class="card-img-top" alt="">
+                                <a href="https://www.undp.org/sustainable-development-goals/quality-education"
+                                    target=_blank class="stretched-link"></a>
+                            </div>
+
+                            <div class="card cc" style="width: 7rem;">
+                                <img src="im/s5.png" class="card-img-top" alt="">
+                                <a href="https://www.undp.org/sustainable-development-goals/gender-equality"
+                                    target=_blank class="stretched-link"></a>
+                            </div>
+
+                            <div class="card cc" style="width: 7rem;">
+                                <img src="im/s6.png" class="card-img-top" alt="">
+                                <a href="https://www.undp.org/sustainable-development-goals/clean-water-and-sanitation"
+                                    target=_blank class="stretched-link"></a>
+                            </div>
+
+                            <div class="card cc" style="width: 7rem;">
+                                <img src="im/s7.png" class="card-img-top" alt="">
+                                <a href="https://www.undp.org/sustainable-development-goals/affordable-and-clean-energy"
+                                    target=_blank class="stretched-link"></a>
+                            </div>
+
+                            <div class="card cc" style="width: 7rem;">
+                                <img src="im/s8.png" class="card-img-top" alt="">
+                                <a href="https://www.undp.org/sustainable-development-goals/decent-work-and-economic-growth"
+                                    target=_blank class="stretched-link"></a>
+                            </div>
+
+                            <div class="card cc" style="width: 7rem;">
+                                <img src="im/s9.png" class="card-img-top" alt="">
+                                <a href="https://www.undp.org/sustainable-development-goals/industry-innovation-and-infrastructure"
+                                    target=_blank class="stretched-link"></a>
+                            </div>
+
+                            <div class="card cc" style="width: 7rem;">
+                                <img src="im/s10.png" class="card-img-top" alt="">
+                                <a href="https://www.undp.org/sustainable-development-goals/reduced-inequalities"
+                                    target=_blank class="stretched-link"></a>
+                            </div>
+
+                            <div class="card cc" style="width: 7rem;">
+                                <img src="im/s11.png" class="card-img-top" alt="">
+                                <a href="https://www.undp.org/sustainable-development-goals/sustainable-cities-and-communities"
+                                    target=_blank class="stretched-link"></a>
+                            </div>
+
+                            <div class="card cc" style="width: 7rem;">
+                                <img src="im/s12.png" class="card-img-top" alt="">
+                                <a href="https://www.undp.org/sustainable-development-goals/responsible-consumption-and-production"
+                                    target=_blank class="stretched-link"></a>
+                            </div>
+
+                            <div class="card cc" style="width: 7rem;">
+                                <img src="im/s13.png" class="card-img-top" alt="">
+                                <a href="http://ndp.org/sustainable-development-goals/climate-action" target=_blank
+                                    class="stretched-link"></a>
+                            </div>
+
+                            <div class="card cc" style="width: 7rem;">
+                                <img src="im/s14.png" class="card-img-top" alt="">
+                                <a href="https://www.undp.org/sustainable-development-goals/below-water" target=_blank
+                                    class="stretched-link"></a>
+                            </div>
+
+                            <div class="card cc" style="width: 7rem;">
+                                <img src="im/s15.png" class="card-img-top" alt="">
+                                <a href="https://www.undp.org/sustainable-development-goals/life-on-land" target=_blank
+                                    class="stretched-link"></a>
+                            </div>
+
+                            <div class="card cc" style="width: 7rem;">
+                                <img src="im/s16.png" class="card-img-top" alt="">
+                                <a href="https://www.undp.org/sustainable-development-goals/peace-justice-and-strong-institutions"
+                                    target=_blank class="stretched-link"></a>
+                            </div>
+
+                            <div class="card cc" style="width: 7rem;">
+                                <img src="im/s17.png" class="card-img-top" alt="">
+                                <a href="https://www.undp.org/sustainable-development-goals/partnerships-for-the-goals"
+                                    target=_blank class="stretched-link"></a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        </div>
+
+    </section>
+
+
+    <!--Donation Section-->
+
+    <section id="donate" class="section-padding">
+        <div class="container reveal">
+            <div class="row">
+                <div class="col-lg-8 col-md-12 col-12 ps-lg-5 mt-md-5">
+                    <div class="mission-text text-justify">
+                        <h2 id="dh2">Donate To Save The Environment</h2>
+                        <h3><br>Tree Planting</h3>
+                        <p>In Kurnool district, deforestation has become a major concern. SERUDS NGO is working to
+                            promote reforestation by planting trees in areas where deforestation has occurred.
+                        </p>
+                        <br><br>
+                        <h3>Waste Management:</h3>
+                        <p>Improper waste management is a significant environmental problem in Kurnool district. SERUDS
+                            NGO is working to address this issue by providing waste management solutions to local
+                            communities.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12 col-12">
+                    <div class="about-image">
+
+                        <img src="im/plant.jpg" alt="into the woods" class="img-fluid" id="plant">
+                    </div>
+                </div>
+
+                <div class="col-lg-8 col-md-12 col-12 ps-lg-5 md-5">
+                    <div class="mission-tex text-justifyt">
+                        <h3>Community Clean-Up:</h3>
+                        <p>SERUDS NGO organizes regular community clean-up events in Kurnool district. We work with
+                            local communities to identify areas that need to be cleaned up, and we provide the necessary
+                            resources and equipment to make it happen.</p>
+                        <h3 class="text-justify">Water Conservation:</h3>
+                        <p>Kurnool district faces severe water scarcity during the summer months. SERUDS NGO is working
+                            to promote water conservation practices in the district. 
+                            The role of SERUDS NGO in Water Conservation program would be to work with local communities
+                            in Kurnool district to promote rainwater harvesting and implement the techniques and
+                            practices associated with it.</p>
+                        <p>
+                            SERUDS NGO can also help raise awareness about the benefits of rainwater harvesting and
+                            encourage people to adopt this practice in their communities.
+
+                            SERUDS NGO can also collaborate with local government bodies and other organizations to
+                            implement rainwater harvesting projects and develop infrastructure for the same. 
+                            </p>
+
+                        <p><a href="https://serudsindia.org/contribute-donation-for-charity/"
+                                class="btn btn-outline-success mt-3 btn-lg" target="_blank">> Donate <i
+                                    class="bi bi-cash-coin"></i></a></p>
+                        <p class="lead text-uppercase fw-bold">
+                            *All donation money will go directly to SERUDSIndia.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-12 col-12">
+                    <div class="about-image">
+
+                        <img src="im/clean.png" alt="into the woods" class="img-fluid">
+                    </div>
+
+                    <div class="about-image">
+
+                        <img src="im/water.png" alt="into the woods" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+    </section>
+
+
+
+    <!-- Issues section -->
+    <section id="issue" class="section-padding">
+        <div class="container reveal">
+            <div class="row">
+
+                <div class="col-lg-12 col-md-12 col-12 ps-5 md-5 ">
+                    <div class="row mb-5  d-inline-flex justify-content-center m-5">
+                        <h1 class="mb-5 text-center">Environmental Issues</h1>
+
+                        <div class="col-12 col-md-6 col-lg-6  col-xxl-4 mb-3 ">
+                            <div class="card cc" style="width: 18rem;">
+                                <img src="im/e1.png" id="i1" class="card-img-top " alt="...">
+                                <div class="card-img-overlay  ">
+                                    <h5 class="card-title d-inline bg-light">Bio Diversity</h5>
+                                    <a href="bio.html" target=_blank class="stretched-link"></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-md-6 col-lg-6  col-xxl-4">
+                            <div class="card cc" style="width: 18rem;">
+                                <img src="im/e2.png" id="i2" class="card-img-top" alt="...">
+                                <div class="card-img-overlay">
+                                    <h5 class="card-title d-inline bg-light">Deforestation</h5>
+                                    <a href="deforestation.html" target=_blank class="stretched-link"></a>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="col-12 col-md-6 col-lg-6 col-xxl-4">
+                            <div class="card cc" style="width: 18rem;">
+                                <img src="im/e3.png" id="i3" class="card-img-top" alt="...">
+                                <div class="card-img-overlay">
+                                    <h5 class="card-title  d-inline bg-light">Climate Change</h5>
+                                    <a href="Climate.html" target=_blank class="stretched-link"></a>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="col-12 col-md-6 col-lg-6  col-xxl-4">
+                            <div class="card cc" style="width: 18rem;">
+                                <img src="im/e4.jpg" id="i4" class="card-img-top" alt="...">
+                                <div class="card-img-overlay">
+                                    <h5 class="card-title d-inline bg-light">Air Pollution</h5>
+                                    <a href="air.html" target=_blank class="stretched-link"></a>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-6 col-xxl-4">
+                            <div class="card cc" style="width: 18rem;">
+                                <img src="im/e5.png" id="i5" class="card-img-top" alt="...">
+                                <div class="card-img-overlay">
+                                    <h5 class="card-title d-inline bg-light">Water Pollution</h5>
+                                    <a href="water.html" target=_blank class="stretched-link"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+
+        </div>
+
+        </div>
+        </div>
+        </div>
+    </section>
+
+    <!--Calculator Section-->
+    <section id="calculator" class="section-padding">
+
+        <h2 class="text-center">Carbon Footprint Calculator</h2>
+
+        <div class="container reveal" style="background-color: rgba(78, 204, 106, 0.979);">
+
+            <div class=" row d-flex justify-content-around mr-10 ">
+                <div class="col-12 col-md-6 col-lg-4 card m-5">
+
+                    <form>
+                        <div class="form-outline d-inline">
+                            <label class="form-label" for="electric-bill">Electric Bill (Rs):</label>
+                            <input type="number" id="electric-bill" class="form-control" placeholder="Eg., 500" />
+                        </div><br>
+
+                        <div class="form-outline d-inline">
+                            <label class="form-label" for="vehicle-milage">Vehicle Mileage (Km):</label>
+                            <input type="number" id="vehicle-milage" class="form-control" placeholder="Eg., 500" />
+                        </div><br>
+
+                        <div class="form-outline d-inline">
+                            <label class="form-label" for="gas-bill">Gas Bill (Rs):</label>
+                            <input type="number" id="gas-bill" class="form-control" placeholder="Eg., 2" />
+                        </div><br>
+
+                        <div class="form-outline d-inline">
+                            <label class="form-label" for="oil-bill">Oil Bill (Rs):</label>
+                            <input type="number" id="oil-bill" class="form-control" placeholder="Eg., 500" />
+                        </div><br>
+
+                        <div class="form-outline d-inline">
+                            <label class="form-label" for="flight">No. of Flights <b>Under</b> 4 hours:</label>
+                            <input type="number" id="flight" class="form-control" placeholder="Eg., 500" />
+                        </div><br>
+
+                        <div class="form-outline d-inline">
+                            <label class="form-label" for="flights">No. of Flights <b>Over</b> 4 hours:</label>
+                            <input type="number" id="flights" class="form-control" placeholder="Eg., 500" />
+                        </div><br>
+
+                        <select class="form-select" aria-label="Default select example" id="rp">
+                            <option selected>Paper Recycle</option>
+                            <option value="0">Yes</option>
+                            <option value="1">No</option>
+                        </select><br>
+
+                        <select class="form-select" aria-label="Default select example " id="rm">
+                            <option selected>Metal Recycle</option>
+                            <option value="0">Yes</option>
+                            <option value="1">No</option>
+                        </select><br>
+
+                        <button id="sub1" class="btn btn-outline-primary">Submit</button>
+                        <p id="result1"></p>
+
+                    </form>
+
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4 card m-5">
+
+
+                    <h2 id="result"></h2>
+                    <table id="emission-table" style="border: 5px black solid ;" class="table table-light table-hover">
+                        <tr>
+                            <th>Emission Range</th>
+                            <th>Description</th>
+                        </tr>
+                        <tr>
+                            <td>0 - 6000 pounds CO<sub>2</sub>e</td>
+                            <td>Very low carbon footprint</td>
+                        </tr>
+                        <tr>
+                            <td>6000 - 15,999 pounds CO<sub>2</sub>e</td>
+                            <td>Low carbon footprint</td>
+                        </tr>
+                        <tr>
+                            <td>16,000 - 22,000 pounds CO<sub>2</sub>e</td>
+                            <td>Moderate carbon footprint</td>
+                        </tr>
+                        <tr>
+                            <td>22,000+ pounds CO<sub>2</sub>e</td>
+                            <td>High carbon footprint</td>
+                        </tr>
+                    </table>
+
+                    <br>
+
+                    <div class="h2"> This is your Carbon FootPrint</div>
+                    <div id="donut_single" style="height:300px;" class="bg-light mt-3 mb-5">
+                        <div class="h2 text-center "> <i class="bi bi-arrow-left"></i> Enter Values there </div>
+
+
+
+
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+
+    <!--AIQ Section-->
+    <section id="aiq" class="section-padding">
+        <div class="container reveal">
+
+            <div>
+
+            </div>
+
+            <div class="row">
+
+                <div class="col-lg-6 col-md-6 col-12 ps-lg-12 mt-md-6 d-flex justify-content-center">
+                    <div class="about-text ">
+                        <div class="h2"><i class="bi bi-wind"></i> Air Quality Index </div>
+                        <table id="emission-table" style="border: 5px black solid ;"
+                            class="table table-light table-hover">
+                            <tr>
+                                <th>Range</th>
+                                <th>Air Quality</th>
+                            </tr>
+                            <tr class="table-success">
+                                <td>0-50</td>
+                                <td>Good</td>
+                            </tr>
+                            <tr>
+                                <td>51-100</td>
+                                <td>Moderate</td>
+                            </tr>
+                            <tr>
+                                <td>101-150</td>
+                                <td>Unhealthy for Sensitive Groups</td>
+                            </tr>
+                            <tr>
+                                <td>101-150</td>
+                                <td>Unhealthy</td>
+                            </tr>
+                            <tr>
+                                <td>201-300</td>
+                                <td>Very Unhealthy</td>
+                            </tr>
+                            <tr class="table-danger">
+                                <td>301-500</td>
+                                <td>Hazardous</td>
+                            </tr>
+                        </table>
+
+
+
+
+
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-12 ps-lg-12 mt-md-6 d-flex justify-content-center">
+
+                    <div class="ratio ratio-16x9">
+                        <iframe src="https://waqi.info/#/c/-1.615/-41.836/1z" title="YouTube video"
+                            scrolling="no"></iframe>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!--contact-->
+    <section id=" contact" class="section-padding reveal">
+
+        <div class="container">
+            <div class="col-lg-12 col-md-12 col-12 ps-lg-5 md-5">
+                <div class="h2 pb-5">Contact us for any Queries</div>
+                <form>
+                    <div class="mb-5">
+                        <label for="email" class="form-label h4 ">Email address:</label>
+                        <input type="email" class="form-control" id="email" placeholder="name@example.com">
+
+                        <div class="mt-5 mb-3">
+                            <label for="textarea" class="form-label h4">Query:</label>
+                            <textarea class="form-control" id="textarea" rows="4"></textarea>
+                        </div>
+
+                        <button type="button" class="btn btn-outline-primary" id="liveToastBtn"
+                            action="#">Submit</button>
+                        <!--id=liveToastBtn-->
+                </form>
+            </div>
+
+            <div class="position-fixed end-0 bottom-0 p-3">
+                <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true"
+                    data-bs-delay="5000">
+                    <div class="toast-header">
+                        <img src="im/logo.png" class="rounded me-2 img-fluid" width="75" height="40" alt="logo">
+                        <strong class="me-auto">Sustianable Dev™</strong>
+                        <small>just now</small>
+                        <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                    </div>
+                    <div class="toast-body">
+                        Query successfully submitted.
+                    </div>
+                </div>
+
+                <div class="alert alert-warning alert-dismissible fade show d-none" role="alert" id="email-id">
+                    <i class="bi bi-info-circle"></i>
+                    <strong>Hi,</strong> Please fill with valid email address.
+                </div>
+
+                <div class="alert alert-warning alert-dismissible fade show d-none" role="alert" id="query-text">
+                    <i class="bi bi-info-circle"></i>
+                    <strong>Hi,</strong> Please enter your query.
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <div class="m-0 ">
+
+        <footer class="" style="background-color: #41ed7a;">
+            <div class="container d-flex justify-content-center py-5 ">
+
+                <div class="btn align-middle"><i class="bi bi-youtube h1"></i></div>
+                <div class="btn align-middle"><i class="bi bi-instagram h1"></i></div>
+                <div class="btn align-middle"> <i class="bi bi-twitter  h1"></i></div>
+
+            </div>
+
+            <div class="text-center text-white p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+                © 2023 Copyright:
+                <a class="text-white" href="#home">Sustainable Dev™</a>
+            </div>
+        </footer>
+
+    </div>
+
+</body>
+
+</html>
